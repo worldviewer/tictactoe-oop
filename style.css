@@ -1,0 +1,77 @@
+#board {
+  width: 31em;
+  height: 30em;
+  position: relative;
+  top: 30px;
+  left: 25%;
+}
+
+.box {
+  width: 10em;
+  height: 10em;
+  border: 1px solid black;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#buttons {
+  margin: 30px auto;
+  width: 7.5em;
+}
+
+button {
+  font-size: 1.5em;
+  padding: 0px 20px;
+  width: 5em;
+  height: 2em;
+}
+
+.o-old {
+  background-color: red;
+  color: white;
+}
+
+.x-old {
+  background-color: black;
+  color: white;
+}
+
+.o {
+  background-image: url('o.png');
+  background-size: cover;
+}
+
+.x {
+  background-image: url('x.jpg');
+  background-size: cover;  
+}
+
+#move {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 0px 20px;
+  width: 6.5em;
+  height: 1em;
+  margin: 0 auto;
+}
+
+.win {
+  background-color: red;
+  color: white;
+}
+
+#message {
+  padding: 15px;
+}
+
+#win {
+  position: absolute;
+  margin: auto auto;
+  left: 50px;
+  top: 150px;
+  visibility: hidden;
+}
